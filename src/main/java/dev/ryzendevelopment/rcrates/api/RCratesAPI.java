@@ -51,6 +51,10 @@ public class RCratesAPI {
         throw new IllegalArgumentException("RCrates is not loaded");
     }
 
+    public void giveVirtualKey(Player player, String crateName, int quantity) {
+        throw new IllegalArgumentException("RCrates is not loaded");
+    }
+
     public void giveCrate(Player player, String crateName, int quantity) {
         throw new IllegalArgumentException("RCrates is not loaded");
     }
@@ -59,8 +63,15 @@ public class RCratesAPI {
         throw new IllegalArgumentException("RCrates is not loaded");
     }
 
-    public boolean hasCrate(Player player, ItemStack item) {
+    public boolean hasVirtualKeys(Player player, String crateName) {
         throw new IllegalArgumentException("RCrates is not loaded");
     }
 
+    public boolean virtualKeysCount(Player player, String crateName) {
+        throw new IllegalArgumentException("RCrates is not loaded");
+    }
+
+    public boolean hasCrate(Player player, ItemStack item) {
+        throw new IllegalArgumentException("RCrates is not loaded");
+    }
 }
